@@ -3,4 +3,4 @@ ubuntu:26.04
 #xhofe/alist:latest
 #支持指定架构
 # --platform=linux/arm64 xiaoyaliu/alist
---platform linux/arm64/v8 redis:8.4.0
+--platform linux/arm64/v8 ubuntu:26.04
