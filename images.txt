@@ -3,4 +3,4 @@ pyqlib/qlib_image_stable:stable
 #xhofe/alist:latest
 #支持指定架构
 # --platform=linux/arm64 xiaoyaliu/alist
---platform linux/arm64 pyqlib/qlib_image_stable:0.1
+# --platform linux/arm64 pyqlib/qlib_image_stable:0.1
