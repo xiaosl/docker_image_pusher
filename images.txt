@@ -3,4 +3,4 @@ qwen/asr-1.7b:latest
 #xhofe/alist:latest
 #支持指定架构
 # --platform=linux/arm64 xiaoyaliu/alist
-# --platform linux/arm64 python:3.11-slim-bookworm
+--platform linux/arm64 qwen/asr-1.7b
