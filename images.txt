@@ -1,6 +1,6 @@
-qwenllm/qwen3-asr:latest
+rust:1.95.0-bookworm
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 #支持指定架构
 # --platform=linux/arm64 xiaoyaliu/alist
---platform linux/arm64 qwenllm/qwen3-asr
+#--platform linux/arm64 qwenllm/qwen3-asr
