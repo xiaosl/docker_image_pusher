@@ -25,6 +25,18 @@ jobs:
         df -hT
         echo "=============================================================================="
 
+    - name: Free Disk Space (Automated)
+      uses: jlumbroso/free-disk-space@main
+      with:
+        # 以下选项按需开启，用不到的就设为 true 来释放空间
+        tool-cache: false      # 是否清除预缓存的工具（Node, Go, Python等）
+        android: true          # 清除 Android SDK
+        dotnet: true           # 清除 .NET SDK
+        haskell: true          # 清除 GHC / Haskell 工具链
+        large-packages: true   # 移除大型 apt 包
+        swap-storage: true     # 移除 swap 分区（可释放数 GB）
+        docker-images: false   # 是否清理 Docker 镜像（如果后续步骤需要基础镜像，建议先设为 false）
+        
     # 增加可用磁盘空间
     - name: Maximize build space
       uses: easimon/maximize-build-space@master
